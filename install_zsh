@@ -1,2 +1,0 @@
-wget --no-check-certificate http://install.ohmyz.sh -O - | sh
-apt-get install autojump
