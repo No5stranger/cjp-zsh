@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 /usr/bin/env git clone https://github.com/No5stranger/cjp-zsh.git $HOME/.zsh
+if [ -f $HOME/.zshrc ]
+then
+    mv $HOME/.zshrc $HOME/.zshrc.bak
+fi
 cd $HOME/.zsh
 /usr/bin/env git clone https://github.com/robbyrussell/oh-my-zsh.git
 ln -s $HOME/.zsh/zshrc $HOME/.zshrc
