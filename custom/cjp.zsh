@@ -1,7 +1,7 @@
 #cjp zsh config
 
 #alias
-export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/bin
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/bin:/sbin
 
 alias ll='ls -l'
 alias la='ls -a'
