@@ -3,6 +3,10 @@
 #alias
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/bin:/sbin
 
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/dev/go
+export PATH=$PATH:/usr/local/go/bin
+
 alias ll='ls -l'
 alias la='ls -a'
 alias tmux='tmux -2'
